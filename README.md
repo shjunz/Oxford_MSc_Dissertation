@@ -7,8 +7,8 @@ Perturbations*. The full write-up is included as the PDF in this repository.
 ## Motivation
 
 In-context learning lets a transformer solve a new task purely from examples in
-its prompt, with no weight updates — a capability now central to how large
-language models are used. Because the prompt *is* the training signal, ICL is
+its prompt, with no weight updates, which is a capability now central to how large
+language models are used. Because the prompt is the training signal, ICL is
 only as trustworthy as the demonstrations it is given, so it is natural to ask
 how it behaves when those demonstrations are corrupted or adversarially chosen.
 
