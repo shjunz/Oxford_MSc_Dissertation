@@ -44,7 +44,7 @@ Two prompt attacks are evaluated:
 
 | File | Description |
 |------|-------------|
-| [`linearly_separable_task.py`](linearly_separable_task.py) | Linearly separable tasks: data generation, model definitions, training, testing, and the LF / LH robustness experiments (incl. the GPT-2 baseline). |
+| [`linearly_separable_task.py`](linearly_separable_task.py) | Linearly separable tasks with data generation, model definitions, training, testing and the LF / LH robustness experiments (incl. the GPT-2 baseline). |
 | [`nonlinearly_separable_task.py`](nonlinearly_separable_task.py) | Non-linearly separable (parabola) tasks with the linear and softmax attention-only transformers. |
 | [`gpt2_model.py`](gpt2_model.py) | Minimal GPT-2 architecture used as the benchmark model. |
 
