@@ -22,7 +22,7 @@ we isolate the effect of the attention non-linearity on ICL robustness.
 
 ## Overview
 
-We study **in-context learning** for binary classification. Each prompt is
+We study in-context learning for binary classification. Each prompt is
 a single task: a sequence of labelled demonstrations `(x_i, y_i)` followed by an
 unlabelled query `x_q`, and the model must predict the query label `y_q ∈ {-1, +1}`
 from the context alone (no gradient updates at test time).
